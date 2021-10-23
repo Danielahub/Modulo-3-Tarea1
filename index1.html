@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+  
+    
+    
+</head>
+
+<body>
+
+    <h3>CALCULADORA DE DIVISAS</h3>
+    <form id="form1" class="formulario">
+        <p> Ingrese Monto:</p>
+        <input type="number" id="valor" min="0" max="undefined">
+
+        <p> Seleccionar el tipo moneda 1:</p>
+        <select id="DIVISA1">
+            <option selected value="0"> Elige una opción </option>
+            <option value="USD">(USD)Dólar</option>
+            <option value="MXN">(MXN)Peso Mexicano</option>
+            <option value="COP">(COP)Peso Colombiano</option>
+            <option value="GBP">(GBP)Libra Exterlina</option>
+            <option value="EUR">(EUR)Euro</option>
+        </select>
+        <p> Seleccionar el tipo de moneda 2:</p>
+        <select id="DIVISA2">
+            <option selected value="0"> Elige una opción </option>
+            <option value="USD2">(USD)Dólar</option>
+            <option value="MXN2">(MXN)Peso Mexicano</option>
+            <option value="COP2">(COP)Peso Colombiano</option>
+            <option value="GBP2">(GBP)Libra Exterlina</option>
+            <option value="EUR2">(EUR)Euro</option>
+        </select>
+      
+            <P>Resultado</P>
+            <input type="submit" value="convertir">
+
+            <input type="text" id="resultado">
+        
+
+
+
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
